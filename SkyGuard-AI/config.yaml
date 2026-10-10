@@ -1,0 +1,43 @@
+# SkyGuard AI configuration
+# Tune these instead of hard-coding values in the source.
+
+random_seed: 42
+
+# Number of AWS stations to simulate in demo mode
+num_stations: 6
+
+# Feature engineering
+rolling_window: 6           # number of readings (e.g. 6 x 10min = 1 hour)
+baseline_window_hours: 24   # window used to learn diurnal baseline per station
+
+# Module 3: spatial cross-check
+spatial:
+  num_neighbors: 3
+  max_distance_km: 300
+
+# Module 2: VPD / psychrometric consistency
+vpd:
+  inconsistency_threshold: 0.35   # normalized deviation above which T-P-RH combo looks unphysical
+
+# Module 4/5: anomaly scoring + classification
+anomaly:
+  score_threshold: 0.65            # score above this triggers a flagged event
+  frozen_std_threshold: 0.01      # rolling std below this => frozen sensor
+  spike_zscore_threshold: 4.0     # |z| above this on a single reading => spike
+  drift_slope_threshold: 0.02     # per-hour slope above this over baseline_window => drift
+
+# Open-world unknown-fault discovery
+unknown_discovery:
+  enabled: true
+  confidence_threshold: 0.70
+  dbscan_eps: 1.25
+  dbscan_min_samples: 2
+  registry_path: data/unknown_faults/registry.json
+
+# Module 6: self-healing
+self_healing:
+  enabled: true
+  max_gap_readings: 6             # do not impute beyond this many consecutive missing readings
+
+# Streaming simulation
+sampling_interval_minutes: 10

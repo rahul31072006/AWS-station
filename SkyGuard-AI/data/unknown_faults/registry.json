@@ -1,0 +1,255 @@
+{
+  "0": {
+    "fault_id": "UF-001",
+    "occurrences": 1950,
+    "stations": [
+      "AWS-001",
+      "AWS-002",
+      "AWS-003",
+      "AWS-004",
+      "AWS-006"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-01T00:00:00",
+    "last_detected": "2026-01-14T23:50:00"
+  },
+  "1": {
+    "fault_id": "UF-002",
+    "occurrences": 6,
+    "stations": [
+      "AWS-001",
+      "AWS-006"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-07T14:20:00",
+    "last_detected": "2026-01-07T14:20:00"
+  },
+  "2": {
+    "fault_id": "UF-003",
+    "occurrences": 6,
+    "stations": [
+      "AWS-001",
+      "AWS-006"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-06T13:50:00",
+    "last_detected": "2026-01-10T13:50:00"
+  },
+  "3": {
+    "fault_id": "UF-004",
+    "occurrences": 6,
+    "stations": [
+      "AWS-001",
+      "AWS-006"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-10T22:00:00",
+    "last_detected": "2026-01-11T22:10:00"
+  },
+  "4": {
+    "fault_id": "UF-005",
+    "occurrences": 15,
+    "stations": [
+      "AWS-002"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-01T17:50:00",
+    "last_detected": "2026-01-12T19:00:00"
+  },
+  "5": {
+    "fault_id": "UF-006",
+    "occurrences": 6,
+    "stations": [
+      "AWS-002"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-01T22:40:00",
+    "last_detected": "2026-01-02T23:20:00"
+  },
+  "6": {
+    "fault_id": "UF-007",
+    "occurrences": 840,
+    "stations": [
+      "AWS-003",
+      "AWS-004",
+      "AWS-005",
+      "AWS-006"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-01T00:00:00",
+    "last_detected": "2026-01-14T23:20:00"
+  },
+  "7": {
+    "fault_id": "UF-008",
+    "occurrences": 6,
+    "stations": [
+      "AWS-003",
+      "AWS-004"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-01T03:00:00",
+    "last_detected": "2026-01-12T06:10:00"
+  },
+  "8": {
+    "fault_id": "UF-009",
+    "occurrences": 6,
+    "stations": [
+      "AWS-003",
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-04T16:20:00",
+    "last_detected": "2026-01-12T17:00:00"
+  },
+  "9": {
+    "fault_id": "UF-010",
+    "occurrences": 6,
+    "stations": [
+      "AWS-003"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-05T04:50:00",
+    "last_detected": "2026-01-08T03:50:00"
+  },
+  "10": {
+    "fault_id": "UF-011",
+    "occurrences": 57,
+    "stations": [
+      "AWS-003",
+      "AWS-005",
+      "AWS-006"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-05T08:00:00",
+    "last_detected": "2026-01-10T04:00:00"
+  },
+  "11": {
+    "fault_id": "UF-012",
+    "occurrences": 6,
+    "stations": [
+      "AWS-003",
+      "AWS-006"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-05T12:00:00",
+    "last_detected": "2026-01-09T02:40:00"
+  },
+  "12": {
+    "fault_id": "UF-013",
+    "occurrences": 12,
+    "stations": [
+      "AWS-003",
+      "AWS-004"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-05T14:00:00",
+    "last_detected": "2026-01-11T15:00:00"
+  },
+  "13": {
+    "fault_id": "UF-014",
+    "occurrences": 186,
+    "stations": [
+      "AWS-003",
+      "AWS-004",
+      "AWS-005"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-05T16:40:00",
+    "last_detected": "2026-01-05T21:50:00"
+  },
+  "14": {
+    "fault_id": "UF-015",
+    "occurrences": 6,
+    "stations": [
+      "AWS-003",
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-06T11:00:00",
+    "last_detected": "2026-01-09T02:00:00"
+  },
+  "15": {
+    "fault_id": "UF-016",
+    "occurrences": 15,
+    "stations": [
+      "AWS-003",
+      "AWS-004",
+      "AWS-005"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-08T05:20:00",
+    "last_detected": "2026-01-14T06:20:00"
+  },
+  "16": {
+    "fault_id": "UF-017",
+    "occurrences": 6,
+    "stations": [
+      "AWS-004",
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-01T14:00:00",
+    "last_detected": "2026-01-14T15:00:00"
+  },
+  "17": {
+    "fault_id": "UF-018",
+    "occurrences": 6,
+    "stations": [
+      "AWS-004",
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-04T01:50:00",
+    "last_detected": "2026-01-07T00:50:00"
+  },
+  "18": {
+    "fault_id": "UF-019",
+    "occurrences": 6,
+    "stations": [
+      "AWS-004"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-11T02:10:00",
+    "last_detected": "2026-01-11T02:20:00"
+  },
+  "19": {
+    "fault_id": "UF-020",
+    "occurrences": 9,
+    "stations": [
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-02T12:40:00",
+    "last_detected": "2026-01-14T11:40:00"
+  },
+  "20": {
+    "fault_id": "UF-021",
+    "occurrences": 6,
+    "stations": [
+      "AWS-005"
+    ],
+    "status": "Emerging",
+    "first_detected": "2026-01-07T05:00:00",
+    "last_detected": "2026-01-07T07:00:00"
+  },
+  "21": {
+    "fault_id": "UF-022",
+    "occurrences": 15,
+    "stations": [
+      "AWS-005"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-08T05:10:00",
+    "last_detected": "2026-01-08T07:30:00"
+  },
+  "22": {
+    "fault_id": "UF-023",
+    "occurrences": 54,
+    "stations": [
+      "AWS-006"
+    ],
+    "status": "Persistent",
+    "first_detected": "2026-01-02T11:40:00",
+    "last_detected": "2026-01-11T07:40:00"
+  }
+}
